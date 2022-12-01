@@ -3,11 +3,12 @@ Application of Python requests, APIs, and JSONs to examine weather trends from a
 
 In Part 1, a series of scatter plots and regression plots were used to examine relationships between latitude and a variety of different weather conditions (e.g., Cloudiness, Temperature). Detailed descriptions and discussions about these relationships are provided in Weather.ipynb.
 
-In Part 2, the weather data was used in conjunction with Geoapify API and the geoViews Python library to create map visualisations. These interactive visualisations assist with identifying hotels in cities that have your preferred weather conditions. Please refer to VacationPy.ipynb for more information.
+In Part 2, the weather data was used in conjunction with Geoapify API and the geoViews Python library to create map visualisations. These interactive visualisations identify hotels within the radius of 10km of each set of coordinates that reflect cities with your preferred weather conditions. Currently, the following condition filters are available (with sample settings in parentheses): Temperature Range (between 10-25 degrees celsius), Cloudiness (not more than 30%), Wind Speed (less than 8 metres/second), Humidity (less than 50%), and Country sieves. Run 'plot_idealvacay' in VacationPy.ipynb for a sample of the final application.
 
 ## packages, dependencies and APIs
 
 OpenWeatherMap API (https://openweathermap.org/api)
+
 Geoapify API
 
 
