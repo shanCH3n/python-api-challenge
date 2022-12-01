@@ -6,7 +6,11 @@ Application of Python requests, APIs, and JSONs to examine weather trends from a
 A series of scatter plots and regression plots were used to examine relationships between latitude and a variety of different weather conditions (e.g., Cloudiness, Temperature). Detailed descriptions and discussions about these relationships are provided in Weather.ipynb.
 
 ### Part 2 
-The weather data was used in conjunction with Geoapify API and the geoViews Python library to create map visualisations. These interactive visualisations identify hotels within the radius of 10km of each set of coordinates that reflect cities with your preferred weather conditions. Currently, the following condition filters are available (with sample settings in parentheses): Temperature Range (between 10-25 degrees celsius), Cloudiness (not more than 30%), Wind Speed (less than 8 metres/second), Humidity (less than 50%), and Country sieves. Run 'plot_idealvacay' in VacationPy.ipynb for a sample of the final application.
+The weather data was used in conjunction with Geoapify API and the geoViews Python library to create map visualisations. These interactive visualisations identify hotels within the radius of 10km of each set of coordinates that reflect cities with your preferred weather conditions. 
+
+Currently, the following condition filters are available (with sample settings in parentheses): Temperature Range (between 10-25 degrees celsius), Cloudiness (not more than 30%), Wind Speed (less than 8 metres/second), and Humidity (less than 50%). You may also choose to filter out certain countries.
+
+Run 'plot_idealvacay' in VacationPy.ipynb for a sample of the final application.
 
 ## APIs
 
@@ -17,8 +21,21 @@ Geoapify API
 ## packages & dependencies
 
 hvplot.pandas
+
+matplotlib.pylplot
+
 pandas
-requestsjson
+
+numpy
+
+requests
+
+json
+
+time
+
+scipy.stats
+
 
 ## Part 1: WeatherPy
 ### 'WeatherPy' Contents
@@ -31,4 +48,4 @@ WeatherPy.ipynb: Contains code for retrieving weather data from the respective A
 ## Part 2: VacationPy
 ### 'VacationPy' Contents
 
-VacationPy.ipynb
+VacationPy.ipynb: Contains code for specifying ideal weather conditions and sieve for hotels in cities that have preferred weather conditions.
