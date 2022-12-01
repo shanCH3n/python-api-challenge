@@ -36,16 +36,14 @@ time
 
 scipy.stats
 
-
-## Part 1: WeatherPy
-### 'WeatherPy' Contents
+## Folder Contents
+### 'WeatherPy'
 
 WeatherPy.ipynb: Contains code for retrieving weather data from the respective API and generation of relevant plots. 
 
 'output_data' folder: Stores cities.csv as well as any figures generated from running WeatherPy.ipynb.
 
 
-## Part 2: VacationPy
-### 'VacationPy' Contents
+### 'VacationPy'
 
 VacationPy.ipynb: Contains code for specifying ideal weather conditions and sieve for hotels in cities that have preferred weather conditions.
